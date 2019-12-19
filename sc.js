@@ -14,7 +14,7 @@ var lscore = document.getElementById('scoreright');
 var ogoal = document.getElementById('goal');
 
 var w = window.innerWidth;
-var h = window.innerHeight;
+var h = document.getElementsByTagName('body')[0].offsetHeight;
 
 var map = []; // Or you could call it "key"
 onkeydown = onkeyup = function(e) {
